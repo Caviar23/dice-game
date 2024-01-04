@@ -15,3 +15,7 @@ if (randomNumber1 > randomNumber2){
 } else {
     document.querySelector("h1").innerHTML = "Draw!";
 }
+
+function Refresh() {
+    window.parent.location = window.parent.location.href;
+}
